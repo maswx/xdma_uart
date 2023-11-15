@@ -14,5 +14,5 @@ source ./tcl/add_constrs.tcl
 set_property top ${fpga_top_name} [current_fileset]
 
 #4. 添加IP
-source ./tcl/ip_xdma.tcl
-source ./tcl/ip_uart.tcl
+source ./ip/ip_xdma.tcl
+source ./ip/ip_uart.tcl
