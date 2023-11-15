@@ -6,8 +6,8 @@
 
 
 module xdma_uart_top (
-	input           pcie_ref_clk_p ,
-	input           pcie_ref_clk_n ,
+	input  [   0:0] pcie_ref_clk_p ,
+	input  [   0:0] pcie_ref_clk_n ,
 	input  [  15:0] pcie_lane_rxp  ,
 	input  [  15:0] pcie_lane_rxn  ,
 	output [  15:0] pcie_lane_txp  ,
